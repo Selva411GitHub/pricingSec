@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ribbon {    
+         
+        width: 160px;
+        height: 32px;
+        font-size: 12px;
+        color: #fff;
+        font-weight: bold;
+        box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+        background: blue;
+        transform: rotate(45deg);
+        position: absolute;
+        right: -42px;
+        top: 20px;
+        padding-top: 7px;
+    }
+    section{display: flex;
+    justify-content: space-evenly;}
+    section .box{
+        line-height:1.5rem; 
+        border-radius:20px ;
+        border:2px solid beige;
+        width:7cm;
+        text-align: center;
+    }
+    .h{color: rgb(34, 34, 202) ;
+        text-align: center;}
+    .p{
+        font-style: italic;
+        text-align: center;
+    }
+    
+    button{
+        color: whitesmoke;
+       border:rgb(49, 49, 216) ;
+        border-radius: 20px;
+     background-color: rgb(49, 49, 216);   
+     padding:.5rem ;
+     width: 2.8cm;
+    }
+     .bus{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        color:aliceblue;
+        background-color:rgb(49, 49, 216);
+        font-size: larger;
+        padding:1rem;
+       
+     }
+    button:hover
+    {background-color: aliceblue;
+    color: rgb(99, 99, 253);}
+    .foot{border-bottom-right-radius: 20px;}
+    .head{border-top: 20px;
+    color: rgb(34, 34, 202) ;}
+    .head,.foot{
+        background-color:ghostwhite;
+        font-size: larger;
+      border: 1px solid ghostwhite ;
+        padding:1rem;
+    }
+    .cut{
+        text-decoration:line-through;
+        color: darkgrey;
+    }
+    span{display: flex;
+     text-align: center;   
+    justify-content: center;}
+    span p{
+        font-size: larger;
+        color:lightsteelblue;
+    }
+    span h1{
+        color: rgb(34, 34, 202) ;
+        font-size:x-large;
+    }
+    .head span{
+        background-color: blue;
+        color: aliceblue;
+        
+    }
+</style>
+    <body>
+    <div class="h"><h1>pricing</h1><br><br></div>
+     <div class="p"><p>Magnam dolores commodi suscipit. Necesitanus eus consequatur
+     ex aliquid figo sum quidem. Sit sint consectetur velt Quaquam que quisquam cupieneme qu'impat</p>
+    <p>Magnam dolores commodi suscipit. Necesitanus eus consequatur</p></div>
+    <section>
+     <div class="box">   
+    <div class="head">free</div>
+    <span><h1>0</h1><p>/month</p></span>
+    <p>aida dere</p>
+    <p>nec feugiast</p>
+    <p>nulla at volupat dola</p>
+    <p class="cut">pharetra massa</p>
+    <p class="cut">massa ultricies</p>
+    <div class="foot"><button type="submit">Buy Now</button></div> </div> 
+    <div class="box">   
+        <div class="bus">business</div>
+        <span><h1>19</h1><p>/month</p></span>
+        <p>aida dere</p>
+        <p>nec feugiast</p>
+        <p>nulla at volupat dola</p>
+        <p>pharetra massa</p>
+        <p class="cut">massa ultricies</p>
+        <div class="foot"><button type="submit">Buy Now</button></div> </div>
+        <div class="box">   
+            <div class="head">Developer</div>
+            <span><h1>29</h1><p>/month</p></span>
+            <p>aida dere</p>
+            <p>nec feugiast</p>
+            <p>nulla at volupat dola</p>
+            <p>pharetra massa</p>
+            <p>massa ultricies</p>
+            <div class="foot"><button type="submit">Buy Now</button></div> </div>
+            <div class="box">  <span class="ribbon">advanced</span>
+                <div class="head"> ultimate </div>
+                <span><h1>49</h1><p>/month</p>  </span>     
+                <p>aida dere</p>
+                <p>nec feugiast</p>
+                <p>nulla at volupat dola</p>
+                <p>pharetra massa</p>
+                <p>massa ultricies</p>
+                <div class="foot"><button type="submit"> Buy Now</button></div> </div>
+              
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
